@@ -24,7 +24,7 @@ const loadCountriesDetail = (code) => {
     // console.log('get country detail', code)
     fetch(url)
         .then(res => res.json())
-    .then(data => displayCountryDetail(data[0]))
+    .then(data => displayCountryDetail             (data[0]))
 }
 const displayCountryDetail = country => {
     console.log(country);
